@@ -14,7 +14,7 @@ fn find_first_duplicate(numbers: &[i32]) ->i32{
                     res = *res_vec.last().unwrap() + val ;
                     condition = res_vec.contains(&res);
                     res_vec.push(res);
-                    //condition = has_unique_elements(&res_vec); //checks if there are duplicates via hashmap
+                    
                     if condition == true { //if resulting number is in array save to variable and break loop
                         duplicate = *res_vec.last().unwrap();
                         break 'outer
