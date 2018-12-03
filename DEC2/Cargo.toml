@@ -1,0 +1,7 @@
+[package]
+name = "DEC2"
+version = "0.1.0"
+authors = ["Felix Neubuerger <felix793@gmail.com>"]
+
+[dependencies]
+hamming = "0.1.3"
